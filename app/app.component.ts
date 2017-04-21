@@ -11,12 +11,4 @@ import { todos } from './shared/data' ;
 })
 export class AppComponent {
     title:    string = 'Angular 2Do2';
-    todos: Todo[] = todos;
-
-    create(title: string) {
-       const todo =  new Todo(title);
-       this.todos.push(todo);
-
-    }
-
 }
